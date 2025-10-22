@@ -12,6 +12,5 @@ pipeline {
     stage('Iamge') {
       steps {
         sh 'docker pull hello-world'
-  
   }
 }
